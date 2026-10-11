@@ -40,13 +40,13 @@
 		if(MIN_PENIS_SIZE)
 			adjective = pick("a tiny","a pathetic","a micro","a worthless","an ornamental","a laughably small","a uselessly small")
 		if(SMALL_PENIS_SIZE)
-			adjective = "a small"
+			adjective = pick("a small","a below-average","an unimpressive","a civilized","an aristocratic","a petite","a compact")//civilized as in greek, think michelangelo's david
 		if(DEFAULT_PENIS_SIZE)
-			adjective = "an average"
+			adjective = pick("an average","a middling","a modest","a standard","an unremarkable","a fair","a medium")
 		if(MAX_PENIS_SIZE)
-			adjective = "a large"
+			adjective = pick("a large","a hefty","a sizeable","a thick","a beefy","a considerably-sized","a fat")
 	if(penis.massive)
-		adjective = "a massive"
+		adjective = pick("a massive","a colossal","an unpleasently large","a jumbo","a grotesquely swelled","an obscene","an unnaturally large")
 	if(H.sexcon)
 		switch(H.sexcon.arousal)
 			if(80 to INFINITY)
