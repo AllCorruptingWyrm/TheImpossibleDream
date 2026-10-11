@@ -76,12 +76,6 @@
 	triumph_cost = 1
 	sort_category = "Triumphs"
 
-/datum/loadout_item/royalsleeves
-	name = "Royal Sleeves"
-	path = /obj/item/clothing/wrists/roguetown/royalsleeves
-	triumph_cost = 1
-	sort_category = "Triumphs"
-
 // -3 TRI
 /datum/loadout_item/triumph_knife
 	name = "Laborer's Knife"
@@ -128,12 +122,6 @@
 /datum/loadout_item/triumph_ornatesilkdress
 	name = "Ornate Silk Dress"
 	path = /obj/item/clothing/suit/roguetown/shirt/dress/silkdress/steward
-	triumph_cost = 3
-	sort_category = "Triumphs"
-
-/datum/loadout_item/royalgown
-	name = "Royal Gown"
-	path = /obj/item/clothing/suit/roguetown/shirt/dress/royal
 	triumph_cost = 3
 	sort_category = "Triumphs"
 
@@ -355,28 +343,16 @@
 	triumph_cost = 7
 	sort_category = "Triumphs"
 
-/datum/loadout_item/triumph_buttpack
-	name = "Cased Pack"
-	path = /obj/item/storage/backpack/rogue/backpack/case/donator_thistle
-	triumph_cost = 7
-	sort_category = "Triumphs"
-
 /datum/loadout_item/triumph_lordcloak
 	name = "Lordly Cloak"
 	path = /obj/item/clothing/cloak/lordcloak
-	triumph_cost = 5
+	triumph_cost = 7
 	sort_category = "Triumphs"
 
 /datum/loadout_item/triumph_ladycloak
 	name = "Ladylike Cloak"
 	path = /obj/item/clothing/cloak/lordcloak/ladycloak
-	triumph_cost = 5
-	sort_category = "Triumphs"
-
-/datum/loadout_item/triumph_ladycloak
-	name = "Ladylike Cloak, Long"
-	path = /obj/item/clothing/cloak/donator_rhynn
-	triumph_cost = 5
+	triumph_cost = 7
 	sort_category = "Triumphs"
 
 /datum/loadout_item/triumph_scabbardroyal

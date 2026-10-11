@@ -59,46 +59,6 @@
 	path = /obj/item/clothing/cloak/darkcloak
 	sort_category = "Cloaks"
 
-/datum/loadout_item/tribalcloak
-	name = "Tribal Cloak"
-	path = /obj/item/clothing/cloak/tribal
-	sort_category = "Cloaks"
-
-/datum/loadout_item/greatcoat
-	name = "Greatcoat"
-	path = /obj/item/clothing/cloak/donator_greatcoat
-	sort_category = "Cloaks"
-
-/datum/loadout_item/greatcoat_dyeable
-	name = "Greatcoat, Dyeable"
-	path = /obj/item/clothing/cloak/donator_greatcoat/dyeable
-	sort_category = "Cloaks"
-
-/datum/loadout_item/nero_woodlandcloak
-	name = "Woodland Mantle"
-	path = /obj/item/clothing/cloak/furcloak/woodland
-	sort_category = "Cloaks"
-
-/datum/loadout_item/lime_dress
-	name = "Noviciate Robe"
-	path = /obj/item/clothing/suit/roguetown/shirt/robe/limetease
-	sort_category = "Cloaks"
-
-/datum/loadout_item/lime_dress_color
-	name = "Colorable Noviciate Robe"
-	path = /obj/item/clothing/suit/roguetown/shirt/robe/limetease/color
-	sort_category = "Cloaks"
-
-/datum/loadout_item/vakiova
-	name = "Gravetender Coat"
-	path = /obj/item/clothing/cloak/vaki_gravetender
-	sort_category = "Cloaks"
-
-/datum/loadout_item/tyesca_cloak
-	name = "Freelancer's Cloak"
-	path = /obj/item/clothing/cloak/raincloak/tyesca
-	sort_category = "Cloaks"
-
 /datum/loadout_item/direcloak
 	name = "Direbear Cloak"
 	path = /obj/item/clothing/cloak/darkcloak/bear
