@@ -63,7 +63,7 @@
 	sort_category = "Shirts"
 
 /datum/loadout_item/eastdoboold
-	name = "Old Dōbō Robe"
+	name = "Floral Dōbō Robe"
 	path = /obj/item/clothing/suit/roguetown/shirt/dress/captainrobe
 	sort_category = "Shirts"
 
