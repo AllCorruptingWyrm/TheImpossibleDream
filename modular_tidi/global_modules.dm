@@ -5,3 +5,4 @@
 #include "sexcon\_sexcon.dme"
 #include "species_renames\species_renames.dme"
 #include "loadout\_loadout.dme"
+#include "job_weapon_overrides\_job_weapon_overrides.dme"
