@@ -230,6 +230,7 @@
 #include "code\__DEFINES\mobs\simplemob_attack_speed.dm"
 #include "code\__DEFINES\mobs\simplemob_health.dm"
 #include "code\__DEFINES\mobs\simplemob_movement_speed.dm"
+#include "modular_tidi\lore\code\character\loadout_datums.dm"
 #include "modular_tidi\sexcon\_sexcon_defines.dm"
 #include "code\__HELPERS\_auxtools_api.dm"
 #include "code\__HELPERS\_lists.dm"
