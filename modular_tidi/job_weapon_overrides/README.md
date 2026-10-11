@@ -2,7 +2,7 @@
 
 **Tag:** `JOB_WEAPON_OVERRIDES`
 
-**Created In:**
+**Created In:** https://github.com/Shadow-Fragger-Metaclique-Gang/TheImpossibleDream/pull/40
 
 **Major changes:**
 
