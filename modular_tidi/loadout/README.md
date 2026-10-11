@@ -2,9 +2,7 @@
 
 **Tag:** `LOADOUT`
 
-**Created in:**
-
-11/10/2026
+**Created in:** https://github.com/Shadow-Fragger-Metaclique-Gang/TheImpossibleDream/pull/36
 
 **Major changes:**
 
@@ -19,4 +17,4 @@ Adds or overwrites items to the loadout options.
 
 ## Core files changed
 
-Files in datums/loadout folder.
+No core files changed.
