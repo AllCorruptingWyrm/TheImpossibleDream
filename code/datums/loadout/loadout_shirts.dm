@@ -245,6 +245,11 @@
 	path = /obj/item/clothing/suit/roguetown/shirt/dress/courtesan
 	sort_category = "Shirts"
 
+/datum/loadout_item/mortosasye_deepcutdress
+	name = "Deep Cut Dress"
+	path = /obj/item/clothing/suit/roguetown/shirt/dress/silkdress/donator_mortosasye_deepcutdress
+	sort_category = "Shirts"
+
 /datum/loadout_item/nightgown
 	name = "Nightgown"
 	path = /obj/item/clothing/suit/roguetown/shirt/dress/nightgown
@@ -258,5 +263,25 @@
 /datum/loadout_item/blouse
 	name = "Blouse"
 	path = /obj/item/clothing/suit/roguetown/shirt/undershirt/blouse
+	sort_category = "Shirts"
+
+/datum/loadout_item/eastdobodecorated
+	name = "Decorated Dōbō Robe"
+	path = /obj/item/clothing/suit/roguetown/armor/basiceast/crafteast/loadout
+	sort_category = "Shirts"
+
+/datum/loadout_item/eastdoboold
+	name = "Old Dōbō Robe"
+	path = /obj/item/clothing/suit/roguetown/armor/basiceast/mentorsuit/loadout
+	sort_category = "Shirts"
+
+/datum/loadout_item/eastdoboold
+	name = "Old Dōbō Robe"
+	path = /obj/item/clothing/suit/roguetown/shirt/dress/captainrobe
+	sort_category = "Shirts"
+
+/datum/loadout_item/squidqueen_longcoat_alt
+	name = "Enchanting Kit, Frayed Longcoat"
+	path = /obj/item/enchantingkit/squidqueen_longcoat_alt
 	sort_category = "Shirts"
 

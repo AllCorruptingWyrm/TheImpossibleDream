@@ -44,6 +44,15 @@
 	path = /obj/item/clothing/head/roguetown/strawhat
 	sort_category = "Hats"
 
+/datum/loadout_item/articap
+	name = "Artificer's Cap"
+	path = /obj/item/clothing/head/roguetown/articap
+	sort_category = "Hats"
+
+/datum/loadout_item/brimmedhat
+	name = "Brimmed Hat"
+	path = /obj/item/clothing/head/roguetown/duelhat/donator_brimmedhat
+
 /datum/loadout_item/witchhat
 	name = "Witch Hat"
 	path = /obj/item/clothing/head/roguetown/witchhat
@@ -233,4 +242,9 @@
 /datum/loadout_item/flamboyant
 	name = "Flamboyant Hat"
 	path = /obj/item/clothing/head/roguetown/flamboyant
+	sort_category = "Hats"
+
+/datum/loadout_item/mentorhat
+	name = "Worn Bamboo Hat"
+	path = /obj/item/clothing/head/roguetown/mentorhat/loadout
 	sort_category = "Hats"

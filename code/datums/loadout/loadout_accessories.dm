@@ -171,6 +171,26 @@
 	path = /obj/item/storage/belt/rogue/leather/double
 	sort_category = "Accessories"
 
+/datum/loadout_item/sashbelt
+	name = "Fine Sash"
+	path = /obj/item/storage/belt/rogue/leather/sash
+	sort_category = "Accessories"
+
+/datum/loadout_item/belt_fur
+	name = "Belt of Caped Fur"
+	path = /obj/item/storage/belt/rogue/leather/donator_fur //If-or-when the aforementioned bug's fixed, replace this with /obj/item/enchantingkit/beltfur.
+	sort_category = "Accessories"
+
+/datum/loadout_item/belt_steel
+	name = "Belt of Maille"
+	path = /obj/item/storage/belt/rogue/leather/donator_steel //If-or-when the aforementioned bug's fixed, replace this with /obj/item/enchantingkit/beltsteelmaille.
+	sort_category = "Accessories"
+
+/datum/loadout_item/belt_steelgirdle
+	name = "Belted Plackart of Steel"
+	path = /obj/item/storage/belt/rogue/leather/donator_steelgirdle
+	sort_category = "Accessories"
+
 /datum/loadout_item/knifebelt // comes empty
 	name = "Tossblade Belt"
 	path = /obj/item/storage/belt/rogue/leather/knifebelt/black
@@ -229,6 +249,16 @@
 /datum/loadout_item/weatheredmask
 	name = "Weathered Xylixian Mask"
 	path = /obj/item/clothing/mask/rogue/xylixmask/weathered
+	sort_category = "Accessories"
+
+/datum/loadout_item/jadehalfmask_donator
+	name = "Jade Halfask"
+	path = /obj/item/clothing/mask/rogue/facemask/donator
+	sort_category = "Accessories"
+
+/datum/loadout_item/porcelainmask
+	name = "Porcelain Mask"
+	path = /obj/item/clothing/mask/rogue/iamcrystalclear
 	sort_category = "Accessories"
 
 /datum/loadout_item/belthooks

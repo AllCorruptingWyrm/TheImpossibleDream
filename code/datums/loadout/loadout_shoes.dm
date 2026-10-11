@@ -24,6 +24,26 @@
 	path = /obj/item/clothing/shoes/roguetown/boots/nobleboot
 	sort_category = "Shoes"
 
+/datum/loadout_item/heelkit
+	name = "Armor Cosmetic, Heelification Elixir"
+	path = /obj/item/heelkit
+	sort_category = "Shoes"
+
+/datum/loadout_item/highheelshoes
+	name = "High-Heeled Shoes"
+	path = /obj/item/clothing/shoes/roguetown/simpleshoes/heels
+	sort_category = "Shoes"
+
+/datum/loadout_item/highheelshoes_gold
+	name = "High-Heeled Shoes, Gold"
+	path = /obj/item/clothing/shoes/roguetown/simpleshoes/heels/donator_gold
+	sort_category = "Shoes"
+
+/datum/loadout_item/highheelshoes_silver
+	name = "High-Heeled Shoes, Silver"
+	path = /obj/item/clothing/shoes/roguetown/simpleshoes/heels/donator_silver
+	sort_category = "Shoes"
+
 /datum/loadout_item/sandals
 	name = "Sandals"
 	path = /obj/item/clothing/shoes/roguetown/sandals
