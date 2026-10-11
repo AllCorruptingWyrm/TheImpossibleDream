@@ -4,6 +4,8 @@
 
 **Created in:** https://github.com/Shadow-Fragger-Metaclique-Gang/TheImpossibleDream/pull/23
 
+**RELATED PRS:** https://github.com/Shadow-Fragger-Metaclique-Gang/TheImpossibleDream/pull/38
+
 **Major changes:**
 
 ## Sexcon One
