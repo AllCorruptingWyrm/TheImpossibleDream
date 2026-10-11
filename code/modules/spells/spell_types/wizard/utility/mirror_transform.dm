@@ -565,11 +565,17 @@
 					should_update = TRUE
 
 		if("Penis Size")
-			var/list/penis_sizes = list("small", "average", "large")
+			// [SURREALIS-EDIT] - SEXCON
+			// var/list/penis_sizes = list("small", "average", "large") // SURREALIS-EDIT - ORIGINAL
+			var/list/penis_sizes = PENIS_SIZES_BY_NAME
+			// [/SURREALIS-EDIT]
 			var/new_size = input(H, "Choose your penis size", "Penis Size") as null|anything in penis_sizes
 			if(new_size)
 				var/obj/item/organ/penis/penis = H.getorganslot(ORGAN_SLOT_PENIS)
 				if(penis)
+					// [SURREALIS-EDIT] - SEXCON
+					// SURREALIS-EDIT - ORIGINAL
+					/*
 					var/size_num
 					switch(new_size)
 						if("small")
@@ -580,8 +586,11 @@
 							size_num = 3
 
 					penis.penis_size = size_num
+					*/
+					penis.penis_size = PENIS_SIZES_BY_NAME[new_size]
+					// [/SURREALIS-EDIT]
 					// [SURREALIS-ADD] - SEXCON
-					if(size_num != MAX_PENIS_SIZE)
+					if(penis.penis_size != MAX_PENIS_SIZE)
 						penis.massive = FALSE
 					// [/SURREALIS-ADD]
 					H.update_body()
