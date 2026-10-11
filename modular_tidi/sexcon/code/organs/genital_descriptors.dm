@@ -37,11 +37,13 @@
 	var/adjective
 	var/arousal_modifier
 	switch(penis.penis_size)
-		if(1)
+		if(MIN_PENIS_SIZE)
+			adjective = pick("a tiny","a pathetic","a micro","a worthless","an ornamental","a laughably small","a uselessly small")
+		if(SMALL_PENIS_SIZE)
 			adjective = "a small"
-		if(2)
+		if(DEFAULT_PENIS_SIZE)
 			adjective = "an average"
-		if(3)
+		if(MAX_PENIS_SIZE)
 			adjective = "a large"
 	if(penis.massive)
 		adjective = "a massive"
@@ -63,9 +65,11 @@
 			if(SHEATH_TYPE_NORMAL)
 				if(penis.massive)
 					used_name = "a bulging sheath"
-				else if(penis.penis_size == 3)
+				else if(penis.penis_size == MAX_PENIS_SIZE)
 					used_name = "a fat sheath"
-				else if(penis.penis_size == 1)
+				else if(penis.penis_size == MIN_PENIS_SIZE)
+					used_name = "a tiny sheath"
+				else if(penis.penis_size == SMALL_PENIS_SIZE)
 					used_name = "a meager sheath"
 				else
 					used_name = "a sheath"

@@ -565,27 +565,9 @@
 					should_update = TRUE
 
 		if("Penis Size")
-			var/list/penis_sizes = list("small", "average", "large")
-			var/new_size = input(H, "Choose your penis size", "Penis Size") as null|anything in penis_sizes
-			if(new_size)
-				var/obj/item/organ/penis/penis = H.getorganslot(ORGAN_SLOT_PENIS)
-				if(penis)
-					var/size_num
-					switch(new_size)
-						if("small")
-							size_num = 1
-						if("average")
-							size_num = 2
-						if("large")
-							size_num = 3
-
-					penis.penis_size = size_num
-					// [SURREALIS-ADD] - SEXCON
-					if(size_num != MAX_PENIS_SIZE)
-						penis.massive = FALSE
-					// [/SURREALIS-ADD]
-					H.update_body()
-					should_update = TRUE
+			// [SURREALIS-EDIT] - SEXCON - Size choices and behavior live in the module.
+			should_update = mirror_transform_penis_size(H)
+			// [/SURREALIS-EDIT]
 
 		if("Testicle Size")
 			var/list/testicle_sizes = list("small", "average", "large")

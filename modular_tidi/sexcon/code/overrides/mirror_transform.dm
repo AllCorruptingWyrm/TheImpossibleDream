@@ -30,7 +30,7 @@
 		new_accessory_type = accessories[1]
 
 	var/obj/item/organ/penis/old_penis = H.getorganslot(ORGAN_SLOT_PENIS)
-	var/new_size = old_penis?.penis_size || DEFAULT_PENIS_SIZE
+	var/new_size = isnull(old_penis) ? DEFAULT_PENIS_SIZE : old_penis.penis_size
 	var/new_functional = isnull(old_penis) ? TRUE : old_penis.functional
 	var/new_massive = old_penis?.massive
 
@@ -45,6 +45,19 @@
 	if(new_accessory_type)
 		penis.accessory_type = new_accessory_type
 	return penis
+
+/proc/mirror_transform_penis_size(mob/living/carbon/human/H)
+	var/new_size = input(H, "Choose your penis size", "Penis Size") as null|anything in PENIS_SIZES_BY_NAME
+	if(isnull(new_size))
+		return FALSE
+	var/obj/item/organ/penis/penis = H.getorganslot(ORGAN_SLOT_PENIS)
+	if(!penis)
+		return FALSE
+	penis.penis_size = PENIS_SIZES_BY_NAME[new_size]
+	if(penis.penis_size != MAX_PENIS_SIZE)
+		penis.massive = FALSE
+	H.update_body()
+	return TRUE
 
 /proc/mirror_transform_pubes(mob/living/carbon/human/H)
 	var/should_update = FALSE
